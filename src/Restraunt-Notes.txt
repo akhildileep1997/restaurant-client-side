@@ -1,0 +1,49 @@
+--------------------------------------------------------------------------------------------------
+-----------------------------------RESTAURANT-LISTING-APP-NOTES-----------------------------------
+--------------------------------------------------------------------------------------------------
+
+
+
+1. Create a new project folsder Restaurant-Listing
+2. inside it create react project => npc create-react-app restaurant-listing-app
+3. Clear the unwanted codes and files
+4. Install the 3rd party libararies
+      1. React-bootstrap / MDB-Bootstrap / React-material-ui
+      2. font awesome
+      3. google-fonts
+      4. bootswatch
+      6. npm install react-bootstrap bootstrap
+5. create components
+      1 Header folder 
+               => header.jsx,header.css
+      2 AllRest folder(main)
+                => AllRest.jsx,AllRest.css
+      3 Footer folder
+                => Footer.jsx , Footer.css            
+6. create json-server in BACKEND
+7. Api-fetching
+   AXIOS:-   npm i axios
+    Introduction to Axios: Axios, which is a popular library is mainly used to send asynchronous
+    HTTP requests to REST endpoints. 
+    This library is very useful to perform CRUD operations.
+    This popular library is used to communicate with the backend. Axios supports the Promise API, 
+    native to JS ES6.
+    Using Axios we make API requests in our application. Once the request is made we get the
+    data in Return,and then we use this data in our project.
+8. Get all restaurant data (API-Call ) - in AllRest component   
+      -> import axios 
+      -> create a function for data fetching 
+      -> call function using useEffect hook
+9 crete a state for holding data      
+10 Path setup
+  localhost:300v=>AllRest component
+  localhost 3000/view/1 => viewRest component
+
+  For Routing = > react-router-dom library
+   * BrowserRouter : To render full application
+   * Routes        : Used to hold multiple routes
+   * Route         : Used for single component path
+    Install => npm i react-router-dom
+
+11 LINK
+    used to redirect one page to another    
